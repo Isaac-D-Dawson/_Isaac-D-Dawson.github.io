@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## Welcome to Test PAge Zero
 
-You can use the [editor on GitHub](https://github.com/Isaac-D-Dawson/Isaac-D-Dawson.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+#Constructed and edited by Isaac D Dawson
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This site serves as a generic test site, consturected to help me practise creating, aditing, and uploading sites to GitHub Pages.
 
-### Markdown
+There isn't really anything here, so I'm going to post some example python code here, Enjoy
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```python
+import random as rand
 
-```markdown
-Syntax highlighted code block
+language = ["and", "Or", "But", "not"]
 
-# Header 1
-## Header 2
-### Header 3
+def string_karkatenate(*args: str) -> str:
+    outval = ""
+    for i in args:
+        if rand.randint(0, 1) == 1:
+            outval += f"{rand.choice(language)} {i} "
+        else:
+            outval += f"{i.strip()} "
+    return outval.upper().strip()
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+print(string_karkatenate("Test1", "Option2", "Third example"))
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Isaac-D-Dawson/Isaac-D-Dawson.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
