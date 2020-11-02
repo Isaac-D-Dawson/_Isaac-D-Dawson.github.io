@@ -22,3 +22,5 @@ def string_karkatenate(*args: str) -> str:
 
 print(string_karkatenate("Test1", "Option2", "Third example"))
 ```
+
+More will be added to this site in future, maybe.
