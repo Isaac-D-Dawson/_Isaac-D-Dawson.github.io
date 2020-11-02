@@ -1,4 +1,4 @@
-## Welcome to Test PAge Zero
+## Welcome to Test Page Zero
 
 #Constructed and edited by Isaac D Dawson
 
